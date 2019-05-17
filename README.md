@@ -28,13 +28,13 @@ For successful completion of this course, students will require the computer sys
 OS:  Ubuntu or any other Debian based OS / MacOS<br/>
 Processor: 1.5 GHz + (recommended 2.2 GHz)<br/>
 Memory: 2 GB (4 GB recommended)<br/>
-Storage: 2 GB needed in total for Odoo instance<br/>
+Storage: 2 GB needed in total for Odoo instance<br/><br/>
 Recommended Hardware Requirements<br/><br/>
 For an optimal experience with hands-on labs and other practical activities, we recommend the following configuration:<br/>
 OS: Ubuntu 16.04, Debian 9 or MacOS X<br/>
 Processor: Intel i3 > 2.2 GHz<br/>
 Memory: 4 GB DDR3<br/>
-Storage: 4 GB available on disk<br/>
+Storage: 4 GB available on disk<br/><br/>
 Software Requirements<br/><br/>
 Operating system: Debian based OS or MAC OS<br/>
 Browser: Mozilla Firefox<br/>
