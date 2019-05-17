@@ -24,21 +24,21 @@ This course is for people who are not developers but want to be. A basic knowled
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-For successful completion of this course, students will require the computer systems with at least the following:
-OS:  Ubuntu or any other Debian based OS / MacOS
-Processor: 1.5 GHz + (recommended 2.2 GHz)
-Memory: 2 GB (4 GB recommended)
-Storage: 2 GB needed in total for Odoo instance
-Recommended Hardware Requirements
-For an optimal experience with hands-on labs and other practical activities, we recommend the following configuration:
-OS: Ubuntu 16.04, Debian 9 or MacOS X
-Processor: Intel i3 > 2.2 GHz
-Memory: 4 GB DDR3
-Storage: 4 GB available on disk
-Software Requirements
-Operating system: Debian based OS or MAC OS
-Browser: Mozilla Firefox
-Atom IDE, Latest Version
+For successful completion of this course, students will require the computer systems with at least the following:<br/>
+OS:  Ubuntu or any other Debian based OS / MacOS<br/>
+Processor: 1.5 GHz + (recommended 2.2 GHz)<br/>
+Memory: 2 GB (4 GB recommended)<br/>
+Storage: 2 GB needed in total for Odoo instance<br/>
+Recommended Hardware Requirements<br/><br/>
+For an optimal experience with hands-on labs and other practical activities, we recommend the following configuration:<br/>
+OS: Ubuntu 16.04, Debian 9 or MacOS X<br/>
+Processor: Intel i3 > 2.2 GHz<br/>
+Memory: 4 GB DDR3<br/>
+Storage: 4 GB available on disk<br/>
+Software Requirements<br/><br/>
+Operating system: Debian based OS or MAC OS<br/>
+Browser: Mozilla Firefox<br/>
+Atom IDE, Latest Version<br/>
 
 Ubuntu download: https://www.ubuntu.com/download/desktop
 Mozilla download: https://www.mozilla.org/en-US/firefox/new/  (comes pre-installed on ubuntu)
