@@ -1,0 +1,107 @@
+<odoo>
+	<data>
+		<!-- LIST VIEW -->
+		<record id="phone_book_view_tree" model="ir.ui.view">
+            <field name="name">All Phonebook Records</field>
+            <field name="model">phone.book</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="date_of_joining"/>
+                    <field name="city"/>
+                    <field name="street"/>
+                    <field name="country_id"/>
+                  <field name="related_partner"/>
+                </tree>
+            </field>
+        </record>
+
+		<!-- LIST VIEW -->
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- FORM VIEW -->
+			<record id="view_calls_form" model="ir.ui.view">
+            <field name="name">Phonebook Record</field>
+            <field name="model">phone.book</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group name="group_top">
+                            <group name="group_left">
+                                <button name="print_name" string="Print" type="object"/>
+                                <field name="name" />
+                                <field name="street"/>
+							<field name="city"/>
+                            </group>
+                        </group>
+                        <group name="group_down">
+                          <field name="country_id"/>
+                          <!-- CALCULATED FIELD -->
+                          <field name="address"/>
+                          <!-- ADDRESS FOR PRINTING -->
+                          <field name="address_for_printing"/>
+                          <field name="related_partner"/>
+                          <field name="category_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!-- FORM VIEW -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+        <!-- record for the “ir.actions.act_window” -->
+        <record id="action_records_form" model="ir.actions.act_window">
+            <field name="name">Phonebook Records</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">phone.book</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		<!-- record for the “ir.actions.act_window” -->
+
+		<!-- menu point -->
+    <menuitem id="menu_records" name="Phonebook Records" sequence="22"/>
+    	<!-- menu point -->
+
+    	<!-- action for the menu point -->
+        <menuitem action="action_records_form" id="menu_action_recs"
+                  parent="menu_records" sequence="10"/>
+        <!-- action for the menu point -->
+	</data>
+</odoo>

@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+    <record id="custom_sale_order_view" model="ir.ui.view">
+    <field name="name">custom.sale.order.view</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale.view_order_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='payment_term_id']" position="after">
+            <field name="new_field"/>
+        </xpath>
+    </field>
+</record>
+  </data>
+</odoo>
